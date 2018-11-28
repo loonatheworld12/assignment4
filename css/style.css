@@ -22,7 +22,40 @@ a:link, a:visited, a:focus {
 a:hover {     
   background: black;
 }
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    margin-top: 15em
+}
 
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+form input, textarea, select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 6px;
+}
+
+form select {
+    text-align: center;
+}
+
+form input[type=submit] {
+    color:#0089ff;
+}
+
+.radio-buttons {
+    margin-right: 15px;
+}
 .center {
     display: grid;
     margin-left: auto;
@@ -46,6 +79,26 @@ a:hover {
     -ms-transform: translate(-50%, -50%);
 }
 
+#text3 {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    font-size: 40px;
+    color: hotpink;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#text4 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 40px;
+    color: hotpink;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 #text2 {
     position: absolute;
     top: 35%;
